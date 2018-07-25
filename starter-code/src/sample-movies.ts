@@ -1,4 +1,4 @@
-[
+export const sampleMovies=[
   {
     id: 1,
     title: "The Shawshank Redemption",
@@ -16,6 +16,11 @@
       "William Sadler",
       "Clancy Brown",
       "Gil Bellows"
+    ],
+    hours: [
+      "Wednesday-19:45h",
+      "Thursday-20:45h",
+      "Friday-21:30h"
     ]
   }, {
     id: 2,
@@ -34,6 +39,11 @@
       "Richard S. Castellano",
       "Robert Duvall",
       "Sterling Hayden"
+    ],
+    hours: [
+      "Wednesday-19:45h",
+      "Thursday-20:45h",
+      "Friday-21:30h"
     ]
   }, {
     id: 3,
@@ -52,6 +62,11 @@
       "Robert De Niro",
       "John Cazale",
       "Talia Shire"
+    ],
+    hours: [
+      "Wednesday-19:45h",
+      "Thursday-20:45h",
+      "Friday-21:30h"
     ]
   }, {
     id: 4,
@@ -70,9 +85,13 @@
       "Michael Caine",
       "Maggie Gyllenhaal",
       "Gary Oldman"
+    ],
+    hours: [
+      "Wednesday-19:45h",
+      "Thursday-20:45h",
+      "Friday-21:30h"
     ]
   }, {
-  {
     id: 5,
     title: "Schindler's List",
     poster: "https://i.imgur.com/IWZJOmu.jpg",
@@ -89,6 +108,11 @@
       "Caroline Goodall",
       "Jonathan Sagall",
       "Embeth Davidtz"
+    ],
+    hours: [
+      "Wednesday-19:45h",
+      "Thursday-20:45h",
+      "Friday-21:30h"
     ]
   }
 ]

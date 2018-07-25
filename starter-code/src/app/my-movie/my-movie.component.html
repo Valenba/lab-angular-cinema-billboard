@@ -1,0 +1,45 @@
+<h2>
+  ROOM {{movie.id}}-{{movie.title}}
+</h2>
+<div class="row">
+  <div class="col-4">
+    <img src="{{movie.poster}}" alt="">
+  </div>
+  <div class="col-7">
+    <h2>Genres</h2>
+    <ul>
+      <li>
+        {{movie.genres}}
+      </li>
+    </ul>
+    <h2>Director</h2>
+    <ul>
+      <li>
+        {{movie.director}}
+      </li>
+    </ul>
+    <h2>Actors</h2>
+    <ul>
+      <li>
+        {{movie.actors}}
+      </li>
+    </ul>
+    <h2>Schedule</h2>
+    <ul>
+      <li>
+        {{movie.hours}}
+      </li>
+    </ul>
+    <h2>Synopsis</h2>
+    <ul>
+      <li>
+        <p>{{movie.synopsis}}</p>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="enlace">
+  <a [routerLink]="['/home']">
+    <button class="btn btn-primary"> HOME</button>
+  </a>
+</div>
